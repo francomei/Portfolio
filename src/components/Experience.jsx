@@ -63,7 +63,7 @@ const Experience = () => {
       id: 7,
       src: postgres,
       title: "Postgres",
-      style: "shadow-gray-400",
+      style: "shadow-yellow-400",
     },
     {
       id: 8,

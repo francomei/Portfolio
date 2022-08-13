@@ -57,7 +57,7 @@ const Experience = () => {
       id: 6,
       src: mysql,
       title: "MySQL",
-      style: "shadow-gray-400",
+      style: "shadow-orange-400",
     },
     {
       id: 7,

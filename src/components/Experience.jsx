@@ -93,7 +93,7 @@ const Experience = () => {
       id: 12,
       src: webpack,
       title: "Webpack",
-      style: "shadow-blue-400",
+      style: "shadow-yellow-400",
     },
     {
       id: 13,

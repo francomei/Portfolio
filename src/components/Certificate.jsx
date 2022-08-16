@@ -26,7 +26,7 @@ function Carousell() {
   return (
     <div
       name="certificate"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white">
         <h1 className="text-4xl font-bold border-b-4 border-gray-500 w-52 pt-2 mt-20">
@@ -42,7 +42,7 @@ function Carousell() {
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
-        className="w-1/2 h-3/4"
+        className="w-1/2 h-3/4 text-white"
       >
         <SwiperSlide>
           {<img src={argentinaprogram} alt="certificado" />}

@@ -12,8 +12,8 @@ import nodejs from "../assets/nodejs.png";
 import mysql from "../assets/mysql.png";
 import git from "../assets/git.png";
 import angular from "../assets/angular.png";
-import webpack from "../assets/webpack.png";
-import bootstrap from "../assets/bootstrap.png";
+// import webpack from "../assets/webpack.png";
+// import bootstrap from "../assets/bootstrap.png";
 
 const Experience = () => {
   const techs = [
@@ -89,18 +89,18 @@ const Experience = () => {
       title: "Tailwind",
       style: "shadow-red-400",
     },
-    {
-      id: 12,
-      src: webpack,
-      title: "Webpack",
-      style: "shadow-yellow-400",
-    },
-    {
-      id: 13,
-      src: bootstrap,
-      title: "Bootstrap",
-      style: "shadow-red-400",
-    },
+    // {
+    //   id: 12,
+    //   src: webpack,
+    //   title: "Webpack",
+    //   style: "shadow-yellow-400",
+    // },
+    // {
+    //   id: 13,
+    //   src: bootstrap,
+    //   title: "Bootstrap",
+    //   style: "shadow-red-400",
+    // },
   ];
 
   return (

@@ -25,7 +25,7 @@ import argentinaprogram from "../assets/certificates/argentinaprogram.png";
 function Carousell() {
   return (
     <div
-      name="certificate"
+      name="certificates"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white">

@@ -1,38 +1,24 @@
 import React from 'react'
 import countries from "../assets/portfolio/countries.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import wallet from "../assets/portfolio/wallet.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: countries,
-      demo: "https://countris-app-pi.vercel.app"
+      demo: "https://countris-app-pi.vercel.app",
+      code: "https://github.com/francomei/PI-Countries"
     },
     {
       id: 2,
-      src: reactParallax,
+      src: wallet,
+      demo: "https://henry-pf-client.vercel.app"
     },
-    {
-      id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+    // {
+    //   id: 3,
+    //   src: countries,
+    // },
   ];
 
   return (
@@ -49,7 +35,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demo }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -61,9 +47,9 @@ const Portfolio = () => {
                   <a href={demo} target="_blank" rel="noreferrer">Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  <a href={code} target="_blank" rel="noreferrer">Code</a>
                 </button>
-              </div>
+              </div>  
             </div>
           ))}
         </div>

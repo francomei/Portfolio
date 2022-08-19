@@ -46,10 +46,10 @@ function Carousell() {
         className="w-1/2 h-3/4 text-white"
       >
         <SwiperSlide>
-          {<img src={argentinaprograma} alt="certificado" />}
+          {<img src={henry} alt="certificado" />}
         </SwiperSlide>
         <SwiperSlide>
-          {<img src={henry} alt="certificado" />}
+          {<img src={argentinaprograma} alt="certificado" />}
         </SwiperSlide>
         .............
       </Swiper>

@@ -7,7 +7,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import argentinaprogram from "../assets/certificates/argentinaprogram.png";
+import argentinaprograma from "../assets/certificates/argentinaprogram.png";
+import henry from "../assets/certificates/henry.png";
 // import basico from "./img/basico de javascript.png";
 // import css from "./img/css gripd.png";
 // import curso from "./img/curso de prewor.png";
@@ -45,20 +46,11 @@ function Carousell() {
         className="w-1/2 h-3/4 text-white"
       >
         <SwiperSlide>
-          {<img src={argentinaprogram} alt="certificado" />}
-        </SwiperSlide>
-        {/* <SwiperSlide>
-          {<img src={argentinaprogram} alt="certificado" />}
+          {<img src={argentinaprograma} alt="certificado" />}
         </SwiperSlide>
         <SwiperSlide>
-          {<img src={argentinaprogram} alt="certificado" />}
+          {<img src={henry} alt="certificado" />}
         </SwiperSlide>
-        <SwiperSlide>
-          {<img src={argentinaprogram} alt="certificado" />}
-        </SwiperSlide>
-        <SwiperSlide>
-          {<img src={argentinaprogram} alt="certificado" />} */}
-        {/* </SwiperSlide> */}
         .............
       </Swiper>
     </div>

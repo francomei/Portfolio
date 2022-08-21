@@ -37,12 +37,15 @@ function Carousell() {
         <SwiperSlide>
           {<img src={henry} alt="certificado" />}
         </SwiperSlide>
+
         <SwiperSlide>
           {<img src={freecodecamp} alt="certificado" />}
         </SwiperSlide>
+
         <SwiperSlide>
           {<img src={argentinaprograma} alt="certificado" />}
         </SwiperSlide>
+        
         .............
       </Swiper>
     </div>

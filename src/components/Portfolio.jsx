@@ -13,7 +13,8 @@ const Portfolio = () => {
     {
       id: 2,
       src: wallet,
-      demo: "https://henry-pf-client.vercel.app"
+      demo: "https://henry-pf-client.vercel.app",
+      code: "https://github.com/francomei/henry-pf-client"
     },
     // {
     //   id: 3,

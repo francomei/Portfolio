@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-          👋 Hi, my name is Franco, I'm 19 years old, I live in Córdoba,
+          👋 Hi, my name is Franco, I'm 19 years old and I live in Córdoba,
           Argentina.
         </p>
 
@@ -31,8 +31,7 @@ const About = () => {
           since I am passionate about everything related to development. I love
           challenges and having goals to be able to perform as a developer. When
           there is something I don't know, I investigate until I find the
-          solution. I consider myself a good colleague and supportive. I love
-          working in a team and I always try to help others.
+          solution. I consider myself a good colleague and supportive. I enjoy team working and i'm always predisposed to help others if they need.
         </p>
 
         <p className="text-xl mt-5">

@@ -13,7 +13,7 @@ const About = () => {
         </p>
       </div>
 
-      <p className="text-xl mt-20">
+      <p className="text-xl mt-10">
       👋 Hola, mi nombre es Franco, tengo 19 años, vivo en Córdoba,  Argentina.
       </p>
 
@@ -30,7 +30,7 @@ const About = () => {
       </p>
 
 
-      <p className="text-xl mt-5 mb-5">
+      <p className="text-xl mt-5 mb-20">
       🚀 Mi objetivo es llegar a ser Developer Senior para poder transmitir mis conocimientos y experiencia a los demás, lo cual me apasiona.
       </p>
     </div>

@@ -30,7 +30,7 @@ const About = () => {
       </p>
 
 
-      <p className="text-xl mt-5">
+      <p className="text-xl mt-5 mb-5">
       🚀 Mi objetivo es llegar a ser Developer Senior para poder transmitir mis conocimientos y experiencia a los demás, lo cual me apasiona.
       </p>
     </div>

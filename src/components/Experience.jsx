@@ -12,7 +12,7 @@ import nodejs from "../assets/nodejs.png";
 import mysql from "../assets/mysql.png";
 import git from "../assets/git.png";
 import angular from "../assets/angular.png";
-// import webpack from "../assets/webpack.png";
+import typescript from "../assets/ts.png";
 // import bootstrap from "../assets/bootstrap.png";
 
 const Experience = () => {
@@ -27,13 +27,13 @@ const Experience = () => {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-orange-500",
+      style: "shadow-yellow-500",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-red-600",
+      style: "shadow-yellow-500",
     },
     {
       id: 4,
@@ -45,13 +45,19 @@ const Experience = () => {
       id: 5,
       src: redux,
       title: "Redux",
-      style: "shadow-red-600",
+      style: "shadow-orange-600",
     },
     {
       id: 5,
       src: angular,
       title: "Angular",
-      style: "shadow-purple-500",
+      style: "shadow-orange-600",
+    },
+    {
+      id: 6,
+      src: typescript,
+      title: "Typescript",
+      style: "shadow-red-600",
     },
     {
       id: 6,
@@ -63,7 +69,7 @@ const Experience = () => {
       id: 7,
       src: postgres,
       title: "Postgres",
-      style: "shadow-purple-500",
+      style: "shadow-red-600",
     },
     {
       id: 8,
@@ -75,7 +81,7 @@ const Experience = () => {
       id: 9,
       src: github,
       title: "Github",
-      style: "shadow-purple-500",
+      style: "shadow-blue-500",
     },
     {
       id: 10,
@@ -87,7 +93,7 @@ const Experience = () => {
       id: 11,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-500",
+      style: "shadow-purple-500",
     },
     // {
     //   id: 12,

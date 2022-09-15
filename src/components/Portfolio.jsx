@@ -1,6 +1,7 @@
 import React from 'react'
 import countries from "../assets/portfolio/countries.png";
 import wallet from "../assets/portfolio/wallet.png";
+import calculadora from "../assets/portfolio/calculadora.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,10 +17,12 @@ const Portfolio = () => {
       demo: "https://henry-pf-client.vercel.app",
       code: "https://github.com/francomei/henry-pf-client"
     },
-    // {
-    //   id: 3,
-    //   src: countries,
-    // },
+    {
+      id: 3,
+      src: calculadora,
+      demo: "https://calculadora-n8fszj8qq-francomei.vercel.app",
+      code: "https://github.com/francomei/Calculadora"
+    },
   ];
 
   return (

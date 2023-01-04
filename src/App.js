@@ -20,6 +20,6 @@ function App() {
       <SocialLinks />
     </div>
   );
-}
+};
 
 export default App;

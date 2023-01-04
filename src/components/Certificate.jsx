@@ -1,6 +1,5 @@
 import React from "react";
 import { Navigation, Pagination, Scrollbar, Thumbs } from "swiper";
-// import s from "./css/Carousell.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/thumbs";
 import "swiper/css";
@@ -10,6 +9,7 @@ import "swiper/css/scrollbar";
 import argentinaprograma from "../assets/certificates/argentinaprogram.png";
 import henry from "../assets/certificates/henry.png";
 import freecodecamp from "../assets/certificates/freecodecamp.png";
+import icaro from "../assets/certificates/icaro.png";
 
 
 function Carousell() {
@@ -39,13 +39,17 @@ function Carousell() {
         </SwiperSlide>
 
         <SwiperSlide>
+          {<img src={icaro} alt="certificado" />}
+        </SwiperSlide>
+
+        <SwiperSlide>
           {<img src={freecodecamp} alt="certificado" />}
         </SwiperSlide>
 
         <SwiperSlide>
           {<img src={argentinaprograma} alt="certificado" />}
         </SwiperSlide>
-        
+
         .............
         
       </Swiper>

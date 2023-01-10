@@ -8,14 +8,14 @@ const Portfolio = () => {
     {
       id: 1,
       src: countries,
-      demo: "https://countris-app-pi.vercel.app",
+      // demo: "https://countris-app-pi.vercel.app",
+      demo: "https://www.linkedin.com/feed/update/urn:li:ugcPost:7016418389904535552/",
       code: "https://github.com/francomei/PI-Countries"
     },
     {
       id: 2,
       src: wallet,
-      // demo: "https://henry-pf-client.vercel.app",
-      demo: "https://www.linkedin.com/feed/update/urn:li:ugcPost:7016418389904535552/",
+      demo: "https://henry-pf-client.vercel.app",
       code: "https://github.com/francomei/henry-pf-client"
     },
     {

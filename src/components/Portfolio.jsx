@@ -2,6 +2,7 @@ import React from 'react'
 import countries from "../assets/portfolio/countries.png";
 import wallet from "../assets/portfolio/wallet.png";
 import calculadora from "../assets/portfolio/calculadora.jpg";
+import admindashboard from "../assets/portfolio/admindashboard.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,7 +16,8 @@ const Portfolio = () => {
     {
       id: 2,
       src: wallet,
-      demo: "https://henry-pf-client.vercel.app",
+      // demo: "https://henry-pf-client.vercel.app",
+      demo: "https://drive.google.com/file/d/1wwtzpL8ZTQVvH8Jf7LNGq7oM91mQl9ic/view?usp=sharing",
       code: "https://github.com/francomei/henry-pf-client"
     },
     {
@@ -23,6 +25,12 @@ const Portfolio = () => {
       src: calculadora,
       demo: "https://calculadora-n8fszj8qq-francomei.vercel.app",
       code: "https://github.com/francomei/Calculadora"
+    },
+    {
+      id: 3,
+      src: admindashboard,
+      demo: "https://admin-dashboard-theta-sepia.vercel.app",
+      code: "https://github.com/francomei/Admin-dashboard"
     },
   ];
 

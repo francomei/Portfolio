@@ -3,6 +3,7 @@ import countries from "../assets/portfolio/countries.png";
 import wallet from "../assets/portfolio/wallet.png";
 import calculadora from "../assets/portfolio/calculadora.jpg";
 import admindashboard from "../assets/portfolio/admindashboard.png";
+import spotifyclone from "../assets/portfolio/spotifyclone.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -31,6 +32,12 @@ const Portfolio = () => {
       src: admindashboard,
       demo: "https://admin-dashboard-theta-sepia.vercel.app",
       code: "https://github.com/francomei/Admin-dashboard"
+    },
+    {
+      id: 3,
+      src: spotifyclone,
+      demo: "https://spotify-clone-ten-sable.vercel.app",
+      code: "https://github.com/francomei/spotify-clone"
     },
   ];
 

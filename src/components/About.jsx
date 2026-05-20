@@ -4,9 +4,9 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-start w-full h-full py-20">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
@@ -14,35 +14,18 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-          👋 Hi, my name is Franco, I'm 19 years old and I live in Córdoba,
-          Argentina.
+          Hi, I'm Franco — a QA Automation Engineer focused on building reliable and scalable testing solutions.
         </p>
 
         <p className="text-xl mt-5">
-          💻 For more than 1 year I discovered the world of programming for
-          which I invested time studying as a self-taught, developing different
-          skills such as logic and problem solving. Currently I finished an
-          intensive course of more than 1000 hours in which I learned to work in
-          a team and carry out different projects with the latest technologies.
+          I have experience working with automated and exploratory testing using tools like Cypress and JavaScript, helping teams improve software quality and detect issues early in the development process.
         </p>
         <p className="text-xl mt-5">
-          👨‍💻 I am characterized by being organized, self-taught, responsible,
-          strict with myself and always trying to learn about new technologies,
-          since I am passionate about everything related to development. I love
-          challenges and having goals to be able to perform as a developer. When
-          there is something I don't know, I investigate until I find the
-          solution. I consider myself a good colleague and supportive. I enjoy team working and i'm always predisposed to help others if they need.
+          I enjoy working in agile environments, collaborating closely with developers and product teams, and continuously learning new technologies and testing strategies.
         </p>
 
         <p className="text-xl mt-5">
-          🌎 I would like to work in an environment where people are committed,
-          where I can continue to grow and where I am given the right tools to
-          project myself as a professional and grow as a person.
-        </p>
-
-        <p className="text-xl mt-5 mb-20">
-          🚀 My goal is to become a Senior Developer to be able to pass on my
-          knowledge and experience to others, which I am passionate about.
+          Currently, I’m focused on improving my skills in test automation, API testing, and modern development workflows.
         </p>
       </div>
     </div>

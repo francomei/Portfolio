@@ -42,7 +42,6 @@ function SocialLinks() {
       ),
       href: "/cv.pdf",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 

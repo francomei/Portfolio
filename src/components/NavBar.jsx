@@ -16,18 +16,22 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
-    },
-    {
-      id: 4,
       link: "experience",
     },
     {
+      id: 4,
+      link: "portfolio",
+    },
+    {
       id: 5,
-      link: "certificates"
+      link: "skills",
     },
     {
       id: 6,
+      link: "certificates"
+    },
+    {
+      id: 7,
       link: "contact",
     },
   ];
@@ -43,7 +47,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200 hover:text-cyan-500"
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -55,15 +59,15 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500"
+        className="cursor-pointer pr-4 z-10 text-gray-300"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-300">
           {links.map(({id, link}) => (
-            <li key={id} className="px-4 cursor-pointer capitalize py-6">
+            <li key={id} className="px-4 cursor-pointer capitalize py-6 hover:text-cyan-500 transition">
               <Link
                 onClick={() => setNav(!nav)}
                 to={link}

@@ -2,8 +2,9 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Certificate from "./components/Certificate";
 
@@ -13,8 +14,9 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Portfolio />
       <Experience />
+      <Portfolio />
+      <Skills />
       <Certificate />
       <Contact />
       <SocialLinks />

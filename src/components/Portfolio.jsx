@@ -4,9 +4,15 @@ import wallet from "../assets/portfolio/wallet.png";
 import calculadora from "../assets/portfolio/calculadora.jpg";
 import admindashboard from "../assets/portfolio/admindashboard.png";
 import spotifyclone from "../assets/portfolio/spotifyclone.png";
+import mrautomotores from "../assets/portfolio/mrautomotores.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 3,
+      src: mrautomotores,
+      demo: "https://mrautomotores.com",
+    },
     {
       id: 1,
       src: countries,
@@ -55,7 +61,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Here are some of the projects I’ve built and worked on, focused on automation, testing, and web development.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
